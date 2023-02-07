@@ -303,13 +303,13 @@ parameters:
     displayName: "Git Repository URL for the build scripts"
     description: "The URL of the repository with your application source code."
     required: true
-    value: "https://github.com/openshift-cs/docs-builder.git"
+    value: "https://ghproxy.com/https://github.com/openshift-cs/docs-builder.git"
 
   - name: "BUILD_REPO"
     displayName: "Git Repository URL for the upstream documentation content"
     description: "The URL of the repository with your application source code."
     required: true
-    value: "https://github.com/openshift/openshift-docs.git"
+    value: "https://ghproxy.com/https://github.com/openshift/openshift-docs.git"
 
   - name: "BUILD_BRANCH"
     displayName: "Git Repository branch for the upstream documentation content"
